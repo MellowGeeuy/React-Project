@@ -10,25 +10,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family:'Times New Roman', Times, serif;
+ 
 }
 .container {
   width: 500px;
   margin: 20px auto;
 }
 
-.tb {
-  list-style-type: none;
-  padding: 0;
-  margin-bottom: 40px;
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 16px;
+  margin:12px;
 }
 
-.tb li {
-  display: flex;
-  background-color: azure;
-  color: black;
-  justify-content: space-between;
-  padding: 30px;
-  margin: 10px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-}
+

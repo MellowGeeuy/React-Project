@@ -1,5 +1,6 @@
 import Transaction from "./component/Transaction"
 import Item from "./component/Item"
+import Box from "./component/boxComponent"
 import './App.css'
 
 
@@ -12,8 +13,7 @@ const App = () => {
   return (
     <div className="container">
       <Title/>
-      <Item/>
-
+      <Transaction/>
     </div>
   )
 }
